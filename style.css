@@ -1,0 +1,92 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/lato-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/lato-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/lato-v22-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v22-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+box-sizing: inherit;
+
+}
+@media (max width 1600px) {
+.block_body {
+  padding: calc(20 + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+}
+.block_title {
+  font-size: calc(20 + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+  margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1600 - 320)));
+}
+}
+.body {
+  height: 100%
+  line-height: 1;
+  font-family: 'Lato', Arial;
+}
+.wrapper {
+  min-height: 100%;
+
+}
+.page {
+  padding: 5px 5px;
+}
+.page_block {
+  margin: 0px 0px 50px 0px;
+  
+}
+.block_one .block_body{
+  background-color: #00ffff;
+}
+.header {
+  background-color: #8d0083;
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: Lato;
+  text-align: center;
+  padding: 30px;
+}
+
+.block_body {
+padding: 50px;
+font-family: 'Lato'
+
+}
+.block_container {
+  padding: 0px 15px;
+  margin: 0px auto;
+  background-color: #00ffff;
+}
+.block_title {
+  font-size: 25px;
+  line-height: 130%;
+  margin: 0px 0px 20px 0:auto
+ margin-botton: 20px;
+  
+}
